@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        :root { --accent-blue: #e3f2fd; --border: #b3e5fc; --text: #333; }
+        body { font-family: sans-serif; padding: 20px; line-height: 1.4; }
+        
+        .header { margin-bottom: 20px; border-bottom: 2px solid #b22222; }
+        
+        /* Grid for Challenges */
+        .grid-challenges { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; margin-bottom: 30px; }
+        .card { background: var(--accent-blue); padding: 15px; border: 1px solid var(--border); border-radius: 8px; }
+        .card h3 { margin: 0 0 5px 0; font-size: 16px; }
+        .card p { font-size: 13px; color: #555; }
+
+        /* Process Flow */
+        .process { display: flex; justify-content: space-between; margin: 30px 0; }
+        .step { width: 22%; text-align: center; font-size: 12px; }
+        
+        /* Footer Table */
+        .footer-metrics { display: flex; justify-content: space-between; gap: 10px; }
+        .metric-box { border: 1px solid #ddd; padding: 10px; width: 30%; font-size: 12px; }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <h1>Feasibility & Viability: Challenge-Proof Design</h1>
+    </header>
+
+    <section class="grid-challenges">
+        <div class="card"><h3>2G Only</h3><p>Works on 1990s-era mobile technology.</p></div>
+        <div class="card"><h3>$50 Phone</h3><p>Tested on low-cost devices.</p></div>
+        <div class="card"><h3>Zero Literacy</h3><p>Voice preference; no typing required.</p></div>
+    </section>
+
+    <section class="process" aria-label="Diagnostic Process">
+        <div class="step"><strong>01. Download App</strong><br>2MB install</div>
+        <div class="step"><strong>02. Speak Symptoms</strong><br>Native language</div>
+        <div class="step"><strong>03. Get Diagnosis</strong><br>Assessment provided</div>
+        <div class="step"><strong>04. Receive SOS</strong><br>Emergency alert</div>
+    </section>
+
+    <section class="footer-metrics">
+        <div class="metric-box"><strong>24-Hour Cycle</strong><br>Continuous monitoring</div>
+        <div class="metric-box"><strong>Weekly Reports</strong><br>Data sent to authorities</div>
+        <div class="metric-box"><strong>Monthly Review</strong><br>Pattern analysis</div>
+    </section>
+
+</body>
+</html>
